@@ -1,0 +1,118 @@
+*{margin:0;padding:0;}
+html{font-size:100px;}
+body,dl,dd,h1,h2,h3,h4,h5,h6,p{margin:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:12px; font-family:"微软雅黑";}
+img{border:none;}
+ul,ol{margin:0;padding:0;list-style:none;}
+strong,b,th{font-weight:normal;}		
+a{text-decoration:none; color:#333;}
+input{padding:0;margin:0;}
+textarea{ resize:none; overflow:auto;}
+button,input{outline:none;}
+
+
+.topNav{
+	width:100%;
+	height:0.58rem;
+	background-color:#111112; 
+	position:fixed;
+	top:0;
+	left:0;
+	right: 0;
+	z-index: 9;
+}
+.wap{
+	// background: red;
+	width: 10rem;
+	height: 100%;
+	margin:0 auto;
+	font-size:0.18rem;
+}
+.logo{
+	display:inline-block;
+	width: 1.8rem;
+	height:0.58rem;
+	cursor:pointer;
+	background: url(../image/logo.png) no-repeat 0 center;
+	float:left;
+}
+.topUl{
+	float:left;
+}
+.topUl li{
+	padding:0;
+	text-align:center;
+	float: left;
+	width:1rem;
+	height:0.58rem;
+	line-height:0.58rem;
+}
+.topUl li a{
+	margin:0;
+	font-size:0.14rem;
+	color: #fff;
+	width:1rem;
+	height:0.58rem;
+	display:block;
+}
+.active{
+	background: #faba00;
+}
+.topUl li a:hover{
+	background: #faba00;
+}
+.login{
+	float: right;
+	width: 1rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	background:#faba00;
+	text-align:center;
+	color:#fff;
+}
+#section-1{
+	background-image:url(../image/a.jpg);
+	background-color:rgba(0,0,0,.0.6);
+	height: 958px;
+}
+#section-2{
+	background-image:url(../image/b.jpg);
+	height: 1080px;
+}
+#section-3{
+	background-image:url(../image/c.jpg);
+	height: 1080px;
+}
+#section-4{
+	background-image:url(../image/d.jpg);
+	height: 1080px;
+}
+.section{
+	min-height: 958px;
+    background: repeat-x center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-size: 18px;
+}
+.content{
+	margin-top:100px
+	min-width: 1000px;
+}
+.section .wap{
+	width: 1000px;
+	height: 100%;
+	margin:0 auto;
+}
+.wap_1{
+	position: relative;
+	width: 1000px;
+    height: 958px;
+}
+.wap_1 div.wap_1Thum{
+	position: absolute;
+	color:#fff;
+	width: 1000px;
+    height: 958px;
+	background: url(../image/1-1.png) no-repeat center center;
+	vertical-align: middle;
+}
